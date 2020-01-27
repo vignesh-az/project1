@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
+import Game from './myGame';
+
 class App extends Component {
   render() {
-    return <h1>hello </h1>;
+    return <div>
+      <Game />
+    </div>;
   }
 }
 
