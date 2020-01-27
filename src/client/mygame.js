@@ -8,6 +8,7 @@ class Game extends React.Component {
   add = () => {
     const currentCount = this.state.count;
     this.setState({
+      // eslint-disable-next-line no-magic-numbers
       count: currentCount + 1,
     });
   }
@@ -15,6 +16,7 @@ class Game extends React.Component {
   subtract = () => {
     const currentCount = this.state.count;
     this.setState({
+      // eslint-disable-next-line no-magic-numbers
       count: currentCount - 1,
     });
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
-import Game from './myGame';
+import Game from './mygame';
 
 class App extends Component {
   render() {
